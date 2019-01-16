@@ -19,6 +19,13 @@ export default [
     routes: [
       // dashboard
       { path: '/', redirect: '/dashboard/analysis' },
+      // WorkFlow
+      {
+        path: 'WorkFlow',
+        name: 'WorkFlow',
+        icon: 'dashboard',
+        component: './WorkFlow/workflow',
+      },
       {
         path: '/dashboard',
         name: 'dashboard',

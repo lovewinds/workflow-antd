@@ -1,5 +1,6 @@
 export default {
   'menu.home': 'Home',
+  'menu.new': 'WorkFlow',
   'menu.dashboard': 'Dashboard',
   'menu.dashboard.analysis': 'Analysis',
   'menu.dashboard.monitor': 'Monitor',
