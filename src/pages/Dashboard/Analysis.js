@@ -102,6 +102,7 @@ class Analysis extends Component {
       searchData,
       offlineData,
       offlineChartData,
+      offlineWorkChartData,
       salesTypeData,
       salesTypeDataOnline,
       salesTypeDataOffline,
