@@ -11,6 +11,7 @@ export { default as Field } from './Field';
 export { default as WaterWave } from './WaterWave';
 export { default as TagCloud } from './TagCloud';
 export { default as TimelineChart } from './TimelineChart';
+export { default as IterationChart } from './IterationChart';
 
 declare const yuan: (value: number | string) => string;
 

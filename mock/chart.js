@@ -131,11 +131,11 @@ for (let i = 0; i < 20; i += 1) {
   });
 }
 const offlineWorkChartData = [];
-for (let i = 0; i < 20; i += 1) {
+for (let i = 0; i < 200; i += 1) {
   offlineWorkChartData.push({
-    x: 1000 * 60 * 30 * i,
-    y1: Math.floor(Math.sqrt(i) * 100) + 10,
-    y2: Math.floor(Math.sqrt(i) * 80) + 10,
+    x: 1000 * i,
+    y1: Math.floor(Math.sqrt(i) * 100) + Math.floor(Math.random() * 50) + 10,
+    y2: Math.floor(Math.sqrt(i) * 80) + Math.floor(Math.random() * 50) + 10,
   });
 }
 
